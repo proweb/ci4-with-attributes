@@ -30,12 +30,7 @@ $routes->setPrioritize();
  * --------------------------------------------------------------------
  */
 
-// We get a performance increase by specifying the default
-// route since we don't have to scan directories.
-// $routes->get('/', function () {
-//     echo 'Hello with CodeIgniter4!';
-// });
-
+ 
 /*
  * --------------------------------------------------------------------
  * Additional Routing

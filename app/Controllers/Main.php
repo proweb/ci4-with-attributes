@@ -3,7 +3,7 @@ namespace App\Controllers;
 
 use Kenjis\CI4\AttributeRoutes\Route;
 
-class Home extends BaseController
+class Main extends BaseController
 {
     #[Route('/', methods: ['get'])]
     public function index()
