@@ -16,7 +16,7 @@ class Main extends BaseController
         return 'About page';
     }
     #[Route('news', methods: ['get'])]
-    public function about()
+    public function news()
     {
         return 'News page';
     }
